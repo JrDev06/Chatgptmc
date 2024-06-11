@@ -4,15 +4,15 @@ const express = require('express');
 
 // Setup OpenAI API
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: sk-proj-Zs2FSTEwshOaw7S1cSbmT3BlbkFJkFsLdugLuOBliFk3NP3z,
 });
 const openai = new OpenAIApi(configuration);
 
 // Create Minecraft bot
 const bot = mineflayer.createBot({
-  host: 'localhost', // Change this to your Minecraft server address
-  port: 25565,       // Change this to your Minecraft server port
-  username: 'Bot',   // Change this to your bot's username
+  host: 'RiseSMPMC.aternos.me', // Change this to your Minecraft server address
+  port: 46779,       // Change this to your Minecraft server port
+  username: 'Botgpt',   // Change this to your bot's username
   offline: true      // Use offline mode
 });
 
