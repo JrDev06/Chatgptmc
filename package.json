@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-gpt-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot that interacts with OpenAI's GPT-3.5 model and stays online using UptimeRobot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.2.0",
+    "openai": "^3.0.0",
+    "express": "^4.18.2"
+  }
+}
