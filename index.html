@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minecraft Bot Uptime</title>
+</head>
+<body>
+  <h1>Minecraft Bot Uptime</h1>
+  <p>Uptime: <span id="uptime">0 seconds</span></p>
+
+  <script>
+    // Update uptime periodically
+    setInterval(() => {
+      fetch('/uptime')
+      .then((response) => response.json())
+      .then((data) => {
+          document.getElementById('uptime').textContent = `${data.uptime} seconds`;
+        });
+    }, 1000);
+  </script>
+</body>
+</html>
