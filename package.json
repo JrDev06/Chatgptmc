@@ -1,16 +1,20 @@
 {
-  "name": "minecraft-gpt-bot",
+  "name": "minecraft-bot",
   "version": "1.0.0",
-  "description": "A Minecraft bot that interacts with OpenAI's GPT-3.5 model and stays online using UptimeRobot.",
-  "main": "bot.js",
+  "description": "A Minecraft bot that can mine, farm, build, and more!",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "mineflayer": "^4.2.0",
-    "openai": "^3.0.0",
-    "express": "^4.18.2"
+    "express": "^4.17.1",
+    "http": "^0.0.1",
+    "mineflayer": "^3.14.0",
+    "mineflayer-pvp": "^2.2.0",
+    "mineflayer-pathfinder": "^2.2.0",
+    "mineflayer-armor-manager": "^1.2.0",
+    "minecraft-protocol": "^1.14.0",
+    "mineflayer-auto-auth": "^1.2.0",
+    "vec3": "^1.2.0"
   }
 }
