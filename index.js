@@ -24,7 +24,7 @@ app.get('/ping', (_, res) => {
 const botConfig = {
   host: 'RiseSMPMC.aternos.me',
   version: false, 
-  username: 'RiseSMPHelper',
+  username: 'RiseSMPHelperBOT',
   port: 46779,
   plugins: [AutoAuth],
   AutoAuth: 'RiseSMPHelperBOT'
